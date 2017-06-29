@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-RUN apt-get -y install gdebi-core
+ 
 RUN apt-get -y install firefox
 RUN apt-get -y install ssh
 RUN echo "X11Forwarding yes" >> /etc/ssh/sshd_config
