@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu
 
  
 RUN apt-get -y install firefox
