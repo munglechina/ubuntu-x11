@@ -1,5 +1,5 @@
 FROM ubuntu
-
+RUN apt update -y
  
 RUN apt-get -y install firefox
 RUN apt-get -y install ssh
