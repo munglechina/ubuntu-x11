@@ -20,7 +20,7 @@ RUN echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 CMD ["/usr/sbin/sshd"]
 
 
-
+#####
 # Install wickr
 #RUN apt-get -y install sqlcipher
 #RUN gdebi /wickr-me_2.6.0_amd64.deb
