@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-COPY wickr-me_2.6.0_amd64.deb /
+
 RUN apt-get -y install gdebi-core
 RUN apt-get -y install firefox
 RUN apt-get -y install ssh
